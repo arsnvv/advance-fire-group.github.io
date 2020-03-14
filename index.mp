@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Типичная страница</title>
+        <meta charset = "utf-8">
+		
+    </head>
+    <body>
+ Моя страница
+    </body>
+</html>
