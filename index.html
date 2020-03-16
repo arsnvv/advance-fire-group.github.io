@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Типичная страница</title>
-        <meta charset = "utf-8">
-		
+		<meta charset = "utf-8">
+        <title>Site0.1</title> 
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-		<script src="js/script.js"></script>
+
     </head>
     <body>
-<div class="topnav" id="myTopnav">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-  <a href="#about">About</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-<div class="navbar-right">
-		<a href="#user">User</a>	
-	</div>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
-</div>
-
+		<header>
+			<div class="header__logo"><p>Site0.1</p></div>
+			<nav>
+				<div class="topnav" id="myTopnav">
+					<a href="#">Home</a>
+					<a href="#news">News</a>
+					<a href="#video">Video</a>
+					<a href="#">User</a>
+					<a href="#" id="menu" class="icon">&#9776;</a>
+				</div>
+			</nav>
+		</header>
+		
+		<main>
+			<div class="main__welcome">
+				<h1>WELCOM ON <span class="mycompany">Site0.1</span></h1>
+				<p>:)</p>
+			</div>
+			<div class="main_news">
+				<a name="news"></a>
+				<a href="#" class="menu__button">News</a>
+			</div>
+			<div class="main_video">
+				<a name="video"></a>
+				<a href="#" class="menu__button">Video</a>
+			</div>
+		</main>
+		<footer>
+			<div class="wrapper">
+				<div class="social">
+				
+				</div>
+			</div>
+		</footer>
+		
+		<script src="js/script.js"></script>
     </body>
 </html>
